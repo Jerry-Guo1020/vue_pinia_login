@@ -12,6 +12,9 @@
             <button @click="handleLogin">提交</button>
         </div>
         <div class="register">
+
+            <!-- 在使用框架的时候，跳转页面的时候使用路由跳转——router.push 通过click事件调用函数来进行页面跳转
+             那么在什么时候是使用 href 呢？ 如果是要跳转另一个网站的时候，就可以用这个 -->
             没有账号？<a @click="toRegister" class="to_register">去注册吧</a>
              <!-- 没有账号？<a href="./register.vue">去注册吧</a> -->
         </div>
